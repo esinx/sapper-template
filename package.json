@@ -7,7 +7,8 @@
         "build": "sapper build --legacy",
         "export": "sapper export --legacy",
         "start": "node __sapper__/build",
-        "postinstall": "link-module-alias"
+        "postinstall": "link-module-alias",
+        "preinstall": "command -v link-module-alias && link-module-alias clean || true"
     },
     "dependencies": {
         "body-parser": "^1.19.0",

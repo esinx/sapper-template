@@ -24,8 +24,6 @@ import MyComponent from "#components/my-component.svelte";
 
 Aliasing is done using [link-module-alias](https://github.com/Rush/link-module-alias).
 
-Run `npm install` if anything breaks.
-
 ### Server Side Features
 
 Unlike the original template, this template uses express and has `body-parser` and `cookie-parser` built-in.
